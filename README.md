@@ -1,6 +1,6 @@
 # Avarixo SERP Preview
 
-A small, free browser tool for drafting a page title and meta description and previewing how the text may look in a search result.
+A free browser tool for drafting a page title and meta description and previewing how the text may look in a search result.
 
 ## Use it
 
@@ -23,6 +23,6 @@ All processing happens in the browser tab. The tool does not store or transmit t
 
 Explore [Avarixo's web tools](https://avarixo.com/avarixo-tools/) for more browser utilities.
 
-## License
+## Reuse
 
-MIT. See [LICENSE](LICENSE).
+No license has been added yet. Contact Avarixo before reusing or redistributing this code.
