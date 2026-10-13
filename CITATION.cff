@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use Avarixo Original Data, please cite the relevant dataset page and snapshot ID."
+title: "Avarixo Original Data"
+type: dataset
+authors:
+  - name: "Avarixo"
+url: "https://avarixo.com/avarixo-original-data/"
+repository-code: "https://github.com/orivaki11/Avarixo-"
+date-released: 2026-10-13
