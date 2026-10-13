@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Draft and preview a search-result title and description locally in your browser.">
-  <title>Avarixo SERP Preview</title>
+  <meta name="description" content="Free Avarixo SERP preview tool plus links to Avarixo original data trackers and public datasets.">
+  <title>Avarixo SERP Preview & Open Data</title>
   <style>
     :root {
       color-scheme: light;
@@ -25,7 +25,9 @@
     .back { color: var(--ink); font-size: .92rem; text-decoration-thickness: 1px; text-underline-offset: 3px; }
     main { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, .9fr); gap: 22px; align-items: start; }
     .panel { background: var(--paper); border: 1px solid var(--line); border-radius: 18px; padding: 24px; box-shadow: 0 8px 28px rgb(0 0 0 / 3%); }
+    .wide { grid-column: 1 / -1; }
     h1 { margin: 0 0 8px; font-size: clamp(1.65rem, 4vw, 2.25rem); line-height: 1.12; letter-spacing: -.045em; }
+    h2 { margin: 0 0 8px; font-size: 1.25rem; }
     .intro { margin: 0 0 24px; color: var(--muted); line-height: 1.55; }
     label { display: block; margin: 18px 0 7px; font-weight: 700; font-size: .93rem; }
     input, textarea { width: 100%; border: 1px solid #cfcfcf; border-radius: 10px; padding: 12px 13px; font: inherit; color: var(--ink); background: white; }
@@ -42,6 +44,9 @@
     .preview-description { margin: 0; color: #4d5156; font-size: .92rem; line-height: 1.5; overflow-wrap: anywhere; }
     .preview-label { margin: 0 0 16px; color: var(--muted); text-transform: uppercase; font-size: .74rem; font-weight: 800; letter-spacing: .08em; }
     .note { margin: 16px 0 0; color: var(--muted); font-size: .85rem; line-height: 1.5; }
+    .data-links { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 10px; margin-top: 18px; }
+    .data-links a { display: block; padding: 12px 14px; border: 1px solid var(--line); border-radius: 11px; color: var(--ink); text-decoration: none; font-weight: 700; background: #fff; }
+    .data-links a:hover { border-color: #b7b7b7; }
     footer { margin-top: 24px; color: var(--muted); font-size: .86rem; }
     footer a { color: inherit; }
     @media (max-width: 700px) {
@@ -49,6 +54,8 @@
       header { margin-bottom: 18px; }
       main { grid-template-columns: 1fr; }
       .panel { padding: 19px; }
+      .wide { grid-column: auto; }
+      .data-links { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -90,10 +97,24 @@
         </article>
         <p class="note">Search engines may rewrite or truncate titles and snippets. This preview is illustrative; character counts are drafting guides, not ranking rules.</p>
       </section>
+
+      <section class="panel wide">
+        <p class="preview-label">Avarixo Original Data</p>
+        <h2>Versioned datasets with public methodology</h2>
+        <p class="intro">Avarixo publishes dated, citation-ready trackers built from first-party source verification and transparent Avarixo scoring methods.</p>
+        <div class="data-links">
+          <a href="https://avarixo.com/avarixo-original-data/">Original Data hub</a>
+          <a href="https://avarixo.com/avarixo-trending-games-index/">Trending Games Index</a>
+          <a href="https://avarixo.com/avarixo-ai-model-tracker/">AI Model Tracker</a>
+          <a href="https://avarixo.com/avarixo-gaming-update-tracker/">Gaming Update Tracker</a>
+          <a href="https://avarixo.com/avarixo-streaming-release-tracker/">Streaming Release Tracker</a>
+          <a href="https://avarixo.com/avarixo-product-recall-tracker/">Product Recall Tracker</a>
+        </div>
+      </section>
     </main>
 
     <footer>
-      A free, dependency-free browser utility. <a href="https://avarixo.com/avarixo-tools/">Explore Avarixo tools</a>.
+      A free, dependency-free browser utility from <a href="https://avarixo.com/">Avarixo</a>. Explore <a href="https://avarixo.com/avarixo-tools/">Avarixo Tools</a> and <a href="https://avarixo.com/avarixo-original-data/">Avarixo Original Data</a>.
     </footer>
   </div>
 
