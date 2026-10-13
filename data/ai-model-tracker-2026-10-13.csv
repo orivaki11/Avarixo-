@@ -1,0 +1,8 @@
+AVX ID,Model,Company,Release,Access status,Primary signal,Open weights,Momentum Score,Confidence
+AVX-AI-GPT6-1007,GPT-6,OpenAI,"Oct. 7, 2026",Global rollout in ChatGPT,General frontier model + Intelligent UI,No,100 / 100,High
+AVX-AI-HAIKU55-1007,Claude Haiku 5.5,Anthropic,"Oct. 7, 2026","Available on Claude Platform and major cloud platforms (AWS, Google Cloud, Microsoft Azure)","Fast, cost-sensitive workloads",No,93 / 100,High
+AVX-AI-ML4-1006,Mistral Large 4,Mistral,"Oct. 6, 2026",Public preview API,Open-weight multimodal frontier model,Weights announced for late Oct.,88 / 100,High
+AVX-AI-GPT61SOL-0929,GPT-6.1 Sol,OpenAI,"Sep. 29, 2026",Available via OpenAI API and supported products,"Coding, computer use and professional workflows",No,86 / 100,High
+AVX-AI-GROK47-0921,Grok 4.7,SpaceXAI,"Sep. 21, 2026",Available,Coding and knowledge work,No,76 / 100,High
+AVX-AI-ARGON-1001,Gemini 4 Argon,Google,"Oct. 1, 2026",Phased trusted-tester rollout,Long-horizon reasoning and cyber defense,No public weights,70 / 100,High
+AVX-AI-MUSE13-0924,Muse Spark 1.3,Meta,"Sep. 24, 2026",Developer ecosystem rollout,Reasoning for coding and agentic workflows,Mixed family,69 / 100,Medium-High
